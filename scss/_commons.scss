@@ -1,0 +1,81 @@
+
+h1{
+    color: $secondaryColor;
+    padding: 30px;
+    font-family: $mainFont;
+    font-size: $textXL;
+    text-align: center;
+    }
+
+
+h2{
+    font-family: $mainFont;
+    font-size: $textMd;
+    color: $secondaryColor;
+    text-align: center;
+}
+
+p{
+    font-family: $mainFont;
+    font-size: $textSm;
+    color: $textColor;
+    text-align: center;
+}
+
+main{
+    background-color: $backgroundColor;
+}
+
+.card{
+    margin: 15px;
+    text-align: center;
+    
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+
+}
+
+.scale:hover{
+    transition: 0.5s;
+    object-fit: cover;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+
+.background-color{
+    background-color: $mainColor
+} 
+
+header{
+    img{
+        width: 100%;
+    }
+
+}
+
+footer{
+    background-color: $mainColor;
+    padding: 15px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: end;
+    img{
+        width: 50px;
+    }
+    ul{
+        list-style: none;
+        display: inline-block;
+        li{
+            list-style-type: none;
+            a{
+            font-family: $mainFont;
+            font-size: $textSm;
+            color: $textColor;
+            }
+        }
+    }
+}

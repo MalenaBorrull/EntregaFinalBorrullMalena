@@ -1,0 +1,19 @@
+
+.navbs{
+    background-color: $mainColor;
+    ul{
+        padding: 10px;
+        li{
+            list-style: none;
+            padding: 20px;
+            a{
+                color: $textColor;
+                font-family: $mainFont;
+                font-size: $textMd;
+             }
+        }
+    }
+    img{
+        width: 350px;
+    }
+}

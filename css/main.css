@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap");
+h1 {
+  color: #5CC6C7 !important;
+  padding: 30px;
+  font-family: "Roboto", sans-serif;
+  font-size: 80px !important;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 45px!important;
+  color: #5CC6C7!important;
+  text-align: center;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  color: #ffffff;
+  text-align: center;
+}
+
+main {
+  background-color: #17242c;
+}
+
+.card {
+  margin: 15px;
+  text-align: center;
+}
+.card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.scale:hover {
+  transition: 0.5s;
+  object-fit: cover;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.background-color {
+  background-color: #283C49;
+}
+
+header img {
+  width: 100%;
+}
+
+footer {
+  background-color: #283C49;
+  padding: 15px 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: end;
+}
+footer img {
+  width: 50px;
+}
+footer ul {
+  list-style: none;
+  display: inline-block;
+}
+footer ul li {
+  list-style-type: none;
+}
+footer ul li a {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.navbs {
+  background-color: #283C49;
+}
+.navbs ul {
+  padding: 10px;
+}
+.navbs ul li {
+  list-style: none;
+  padding: 20px;
+}
+.navbs ul li a {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 45px;
+}
+.navbs img {
+  width: 350px;
+}
+
+/*# sourceMappingURL=main.css.map */
