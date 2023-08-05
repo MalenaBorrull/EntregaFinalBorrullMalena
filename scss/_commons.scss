@@ -1,24 +1,27 @@
+*{box-sizing: border-box;
+    max-width: 100%;
+  }
 
 h1{
-    color: $secondaryColor;
-    padding: 30px;
+    color: $secondaryColor !important;
+    padding: 10px;
     font-family: $mainFont;
-    font-size: $textXL;
+    font-size: $textXL !important;
     text-align: center;
     }
 
 
 h2{
     font-family: $mainFont;
-    font-size: $textMd;
-    color: $secondaryColor;
+    font-size: $textMd !important;
+    color: $secondaryColor !important;
     text-align: center;
 }
 
 p{
     font-family: $mainFont;
-    font-size: $textSm;
-    color: $textColor;
+    font-size: $textSm !important;
+    color: $textColor !important;
     text-align: center;
 }
 
@@ -26,8 +29,10 @@ main{
     background-color: $backgroundColor;
 }
 
+
+
 .card{
-    margin: 15px;
+    margin: 10px;
     text-align: center;
     
     img{
@@ -49,12 +54,16 @@ main{
     background-color: $mainColor
 } 
 
-header{
-    img{
-        width: 100%;
-    }
-
+.botonGeneral{
+    display: inline-block;
+    padding: 10px 10px;
+    background-color: $secondaryColor;
+    color: $mainColor;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
 }
+
 
 footer{
     background-color: $mainColor;
@@ -64,7 +73,7 @@ footer{
     justify-content: space-between;
     align-content: end;
     img{
-        width: 50px;
+        width: 30px;
     }
     ul{
         list-style: none;

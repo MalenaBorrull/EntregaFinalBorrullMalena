@@ -2,10 +2,10 @@
 .navbs{
     background-color: $mainColor;
     ul{
-        padding: 10px;
+        padding: 5px;
         li{
             list-style: none;
-            padding: 20px;
+            padding: 10px;
             a{
                 color: $textColor;
                 font-family: $mainFont;
@@ -14,6 +14,6 @@
         }
     }
     img{
-        width: 350px;
+        width: 200px;
     }
 }
