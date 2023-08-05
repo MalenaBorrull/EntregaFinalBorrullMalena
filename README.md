@@ -2,7 +2,7 @@
 
 Hola Feli! realizo la 3er preentrega
 
-Link a Repositorio: https://github.com/MalenaBorrull/Preentrega3BorrullMalena.git
+Link a Repositorio: https://github.com/MalenaBorrull/EntregaFinalBorrullMalena
 
 
 link a Pages: 
